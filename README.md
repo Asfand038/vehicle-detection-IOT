@@ -5,12 +5,12 @@
 #### A demo of Vehicle Detection System: a monocular camera is used for detecting vehicles. 
 
 
-#### [**(1) Highway Drive (with Lane Departure Warning)**](https://youtu.be/Brh9-uab7Qs) (Click to see the full video)
+#### **(1) Highway Drive (with Lane Departure Warning)**
 
-[![gif_demo1][demo1_gif]](https://youtu.be/Brh9-uab7Qs)
+![alt text][image1]
 
-#### [**(2) City Drive (Vehicle Detection only)**](https://youtu.be/2wOxK86LcaM) (Click to see the full video)
-[![gif_demo2][demo2_gif]](https://youtu.be/2wOxK86LcaM)
+#### **(2) City Drive (Vehicle Detection only)**
+![alt text][image1]
 
 ---
 
@@ -22,9 +22,6 @@
 * [svm_pipeline.py](svm_pipeline.py) is the car detection pipeline with SVM
 * [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf)
 * [visualization.py](visualizations.py) is the function for adding visalization
-
----
-Others are the same as in the repository of [Lane Departure Warning System](https://github.com/JunshengFu/autonomous-driving-lane-departure-warning):
 * [calibration.py](calibration.py) contains the script to calibrate camera and save the calibration results
 * [lane.py](model.h5) contains the lane class 
 * [examples](examples) folder contains the sample images and videos
@@ -48,16 +45,6 @@ the [weights](weights) folder.
 ```sh
 python main.py
 ```
-
-#### 4. Release History
-
-* 0.1.1
-    * Fix two minor bugs and update the documents
-    * Date 18 April 2017
-
-* 0.1.0
-    * The first proper release
-    * Date 31 March 2017
 
 ---
 
