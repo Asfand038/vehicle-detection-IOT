@@ -7,10 +7,10 @@
 
 #### **(1) Highway Drive (with Lane Departure Warning)**
 
-![alt text][image1]
+![alt text][image9]
 
 #### **(2) City Drive (Vehicle Detection only)**
-![alt text][image1]
+![alt text][image10]
 
 ---
 
@@ -72,6 +72,8 @@ python main.py
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/svn_1.png
 [image8]: ./examples/yolo_1.png
+[image9]: ./examples/highway-drive.png
+[image10]: ./examples/city-drive.png
 [image_yolo1]: ./examples/yolo1.png
 [image_yolo2]: ./examples/yolo2.png
 [video1]: ./project_video.mp4
